@@ -1,0 +1,54 @@
+.storywrapper {
+    padding-top:10px;
+    margin-bottom: 20px;
+    border-top: 1px solid #cccccc;
+}
+
+.storywrapper:first-of-type {
+    border-top: 0;
+
+}
+
+.storywrapper:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.storyTitle {
+    margin-bottom: 5px;
+    font-size:18px;
+    line-height:1.8;
+    margin: 0;
+    text-decoration:none;
+}
+
+.urlTag {
+    color:#2e2e2e;
+    background-color: #f8dc3d;
+    text-decoration: none;
+}
+
+.storyMeta {
+    font-style:italic;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.storyMeta > span:first-child {
+    margin-right: 10px;
+}
+
+.storyMeta > span:not(:first-child):before {
+    content:'';
+    margin: 0 7px;
+}
+
+.story__meta-bold {
+    font-weight: bold;
+}
+
+.storyMetaElement {
+    font-weight: bold;
+    color:black;
+}
