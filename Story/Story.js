@@ -18,7 +18,7 @@ export default function Story({storyid}) {
   return Story && Story.url ? (
     <div className={styles.storywrapper}>
       <div className={styles.storyTitle}></div>
-      <a className={styles.urlTag} href= {'/Storypage/' + storyid}>
+      <a className={styles.urlTag} href= {Story.url} target = "_blank" rel = "noreferrer noopener">
         {Story.title}
       </a>
       <div className={styles.storyMeta}>
