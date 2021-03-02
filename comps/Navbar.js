@@ -36,7 +36,7 @@ export default function Navbar() {
             color="inherit"
             aria-label="menu"
           ></IconButton>
-            <Button href = "/" color="inherit">Home</Button>
+            <Button href = "/" color="inherit">Refresh</Button>
         </Toolbar>
       </AppBar>
     </div>
