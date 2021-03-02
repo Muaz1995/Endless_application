@@ -10,6 +10,9 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div className={styles.container}>
+      <Head>
+        <title>mynews.fyi - Simple headlines</title>
+      </Head>
       <StoriesContainer />
     </div>
   )
